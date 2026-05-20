@@ -23,6 +23,11 @@
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
+
+        combo_mouse {
+            bindings = <&to 4>;
+            key-positions = <40 41>;
+        };
     };
 
     behaviors {
@@ -127,10 +132,10 @@
 
         layer_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans  &trans  &trans
-                        &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans     &trans     &trans  &trans  &tog 4
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans     &trans     &trans  &trans  &to 0
+                        &trans  &trans  &trans    &mkp LCLK       &mkp RCLK  &mkp MCLK
             >;
 
             label = "Mouse";
