@@ -89,7 +89,7 @@
             bindings = <
 &kp TAB  &kp Q        &kp W        &kp E         &kp R         &kp T          &kp Y        &kp U         &kp I         &kp O        &kp P          &kp BSPC
 &kp ESC  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G          &kp H        &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SQT  &kp RET
-&trans   &kp Z        &kp X        &kp C         &kp V         &kp B          &kp N        &kp M         &morph_comma  &morph_dot   &kp FSLH       &morph_qmark
+&kp RET  &kp Z        &kp X        &kp C         &kp V         &kp B          &kp N        &kp M         &morph_comma  &morph_dot   &kp FSLH       &morph_qmark
                                    &mt LGUI TAB  &lt 3 PIPE    &lt 1 MINUS    &lt 2 SPACE  &kp BSPC      &kp DEL
             >;
         };
@@ -99,7 +99,7 @@
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9  &trans    &kp PLUS   &kp N7  &kp N8   &kp N9  &kp STAR   &trans
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans    &kp COMMA  &kp N4  &kp N5   &kp N6  &kp UNDER  &trans
-&to 1   &kp F10  &kp F1  &kp F2  &kp F3  &trans    &kp MINUS  &kp N1  &kp N2   &kp N3  &kp FSLH   &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &kp MINUS  &kp N1  &kp N2   &kp N3  &kp FSLH   &trans
                          &trans  &trans  &trans    &trans     &kp N0  &kp DOT
             >;
         };
@@ -107,9 +107,9 @@
         layer_navigation {
             display-name = "Nav";
             bindings = <
-&kp AMPS   &kp AT     &kp TILDE  &kp PLUS   &kp PRCNT  &kp PIPE     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans     &kp DEL
+&kp AMPS   &kp AT     &kp TILDE  &kp PLUS   &kp PRCNT  &kp PIPE     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans     &trans
 &kp HASH   &kp CARET  &kp LBRC   &kp RBRC   &kp DLLR   &kp STAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp GRAVE  &trans
-&kp GRAVE  &kp LT     &kp EQUAL  &kp MINUS  &kp GT     &kp EXCL     &trans    &kp C_RW   &trans     &kp C_FF   &trans     &trans
+&kp GRAVE  &kp LT     &kp EQUAL  &kp MINUS  &kp GT     &kp EXCL     &trans    &trans     &trans     &trans     &trans     &trans
                                  &kp BSLH   &kp FSLH   &kp SPACE    &trans    &trans     &trans
             >;
         };
