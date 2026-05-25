@@ -169,52 +169,11 @@ layers:
   - ''
   - {type: held}
   - ''
-  - PLAY PAUSE
+  - 󰐎
   - 󰒮
   - 󰒭
-  Mouse:
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - 󰍽 
-  - 󰍽 
-  - 󰍽 
-  - 󰍽 
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - {t: Mouse, h: toggle}
-  - 󰍽 L
-  - 󰍽 R
-  - 󰍽 M
+  Mouse: ['', '', '', '', '', '', 󰍽 ⇇, 󰍽 ⇊, 󰍽 ⇈, 󰍽 ⇉, '', '', '', '', '', '', '', '', 󰍽 , 󰍽 , 󰍽 , 󰍽 , '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', 󰍽 L, 󰍽 R, 󰍽 M]
 combos:
 - p: [16, 19]
   k: 󰪛
