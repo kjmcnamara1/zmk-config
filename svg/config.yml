@@ -79,6 +79,7 @@ parse_config:
   zmk_keycode_map:
     TAB: ""
     SPACE: "󱁐"
+    RET: "󰌑"
     BSPC: "󰁮"
     DEL: "󰹾"
     LEFT: ""
