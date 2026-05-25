@@ -1,0 +1,242 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Base:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: ESC, h: LCTRL}
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: '''', h: RGUI}
+  - {t: RET, h: RCTRL}
+  - RET
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - /
+  - {t: '?', s: '!'}
+  - {t: TAB, h: LGUI}
+  - {t: '|', h: Sys}
+  - {t: '-', h: Num}
+  - {t: SPACE, h: Nav}
+  - BSPC
+  - DEL
+  Num:
+  - {t: ▽, type: trans}
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - +
+  - '7'
+  - '8'
+  - '9'
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - ','
+  - '4'
+  - '5'
+  - '6'
+  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - .
+  Nav:
+  - '&'
+  - '@'
+  - '~'
+  - +
+  - '%'
+  - '|'
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '#'
+  - ^
+  - '{'
+  - '}'
+  - $
+  - '*'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - '`'
+  - {t: ▽, type: trans}
+  - '`'
+  - <
+  - '='
+  - '-'
+  - '>'
+  - '!'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - /
+  - SPACE
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sys:
+  - '&soft_off'
+  - ''
+  - ''
+  - BRI UP
+  - BRI DN
+  - '&soft_off'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - BT CLR
+  - ''
+  - ''
+  - VOL UP
+  - VOL DN
+  - MUTE
+  - ''
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - INS
+  - KP NUMLOCK
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - BT NXT
+  - OUT TOG
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - ''
+  - {type: held}
+  - ''
+  - PLAY PAUSE
+  - PREV
+  - NEXT
+  Mouse:
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - {t: Mouse, h: toggle}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+combos:
+- p: [16, 19]
+  k: '&caps_word'
+- p: [40, 41]
+  k: {t: Mouse, h: toggle}
+- p: [18, 19]
+  k: '='
+- p: [19, 20]
+  k: (
+- p: [20, 21]
+  k: )
+- p: [7, 8]
+  k: '{'
+- p: [8, 9]
+  k: '}'
+- p: [7, 19]
+  k: '['
+- p: [9, 21]
+  k: ']'
+- p: [31, 32]
+  k: <
+- p: [32, 33]
+  k: '>'
+- p: [15, 16]
+  k: RET
