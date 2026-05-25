@@ -24,8 +24,8 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
   - {t: '''', h: RGUI}
-  - {t: RET, h: RCTRL}
-  - RET
+  - {t: 󰌑, h: RCTRL}
+  - 󰌑
   - Z
   - X
   - C
@@ -250,5 +250,5 @@ combos:
   k: '>'
   l: [Base]
 - p: [15, 16]
-  k: RET
+  k: 󰌑
   l: [Base]
