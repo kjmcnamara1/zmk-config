@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   Base:
-  - TAB
+  - 
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - 󰁮
   - {t: ESC, h: LCTRL}
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
@@ -37,12 +37,12 @@ layers:
   - {t: ., s: ':'}
   - /
   - {t: '?', s: '!'}
-  - {t: TAB, h: LGUI}
+  - {t: , h: LGUI}
   - {t: '|', h: Sys}
   - {t: '-', h: Num}
-  - {t: SPACE, h: Nav}
-  - BSPC
-  - DEL
+  - {t: 󱁐, h: Nav}
+  - 󰁮
+  - 󰹾
   Num:
   - {t: ▽, type: trans}
   - F12
@@ -105,10 +105,10 @@ layers:
   - '}'
   - $
   - '*'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - 
+  - 
+  - 
+  - 
   - '`'
   - {t: ▽, type: trans}
   - '`'
@@ -125,17 +125,17 @@ layers:
   - {t: ▽, type: trans}
   - \
   - /
-  - SPACE
+  - 󱁐
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sys:
-  - '&soft_off'
+  - 
   - ''
   - ''
-  - BRI UP
-  - BRI DN
-  - '&soft_off'
+  - 󰃠
+  - 󰃜
+  - 
   - ''
   - ''
   - ''
@@ -145,9 +145,9 @@ layers:
   - BT CLR
   - ''
   - ''
-  - VOL UP
-  - VOL DN
-  - MUTE
+  - 
+  - 
+  - 
   - ''
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
@@ -170,8 +170,8 @@ layers:
   - {type: held}
   - ''
   - PLAY PAUSE
-  - PREV
-  - NEXT
+  - 󰒮
+  - 󰒭
   Mouse:
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
@@ -191,10 +191,10 @@ layers:
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
+  - 󰍽 
+  - 󰍽 
+  - 󰍽 
+  - 󰍽 
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
@@ -212,12 +212,12 @@ layers:
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
   - {t: Mouse, h: toggle}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
+  - 󰍽 L
+  - 󰍽 R
+  - 󰍽 M
 combos:
 - p: [16, 19]
-  k: '&caps_word'
+  k: 󰪛
   l: [Base]
 - p: [40, 41]
   k: {t: Mouse, h: toggle}
