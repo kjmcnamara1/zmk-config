@@ -39,7 +39,6 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -62,77 +61,38 @@ parse_config:
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
-  qmk_remove_keycode_prefix:
-    - KC_
-  qmk_keycode_map:
-    XXXXXXX: ""
-    "NO": ""
-    MINUS: "-"
-    MINS: "-"
-    EQUAL: "="
-    EQL: "="
-    LEFT_BRACKET: "["
-    LBRC: "["
-    RIGHT_BRACKET: "]"
-    RBRC: "]"
-    BACKSLASH: \
-    BSLS: \
-    NONUS_HASH: "#"
-    NUHS: "#"
-    SEMICOLON: ;
-    SCLN: ;
-    QUOTE: "'"
-    QUOT: "'"
-    GRAVE: "`"
-    GRV: "`"
-    COMMA: ","
-    COMM: ","
-    DOT: .
-    SLASH: /
-    SLSH: /
-    TILDE: "~"
-    TILD: "~"
-    EXCLAIM: "!"
-    EXLM: "!"
-    AT: "@"
-    HASH: "#"
-    DOLLAR: $
-    DLR: $
-    PERCENT: "%"
-    PERC: "%"
-    CIRCUMFLEX: ^
-    CIRC: ^
-    AMPERSAND: "&"
-    AMPR: "&"
-    ASTERISK: "*"
-    ASTR: "*"
-    LEFT_PAREN: (
-    LPRN: (
-    RIGHT_PAREN: )
-    RPRN: )
-    UNDERSCORE: _
-    UNDS: _
-    PLUS: +
-    LEFT_CURLY_BRACE: "{"
-    LCBR: "{"
-    RIGHT_CURLY_BRACE: "}"
-    RCBR: "}"
-    PIPE: "|"
-    COLON: ":"
-    COLN: ":"
-    DOUBLE_QUOTE: '"'
-    DQUO: '"'
-    DQT: '"'
-    LEFT_ANGLE_BRACKET: <
-    LABK: <
-    LT: <
-    RIGHT_ANGLE_BRACKET: ">"
-    RABK: ">"
-    GT: ">"
-    QUESTION: "?"
-    QUES: "?"
+  raw_binding_map:
+    "&soft_off": ""
+    "&caps_word": "󰪛"
+    "&mmv MOVE_LEFT": "󰍽 "
+    "&mmv MOVE_DOWN": "󰍽 "
+    "&mmv MOVE_UP": "󰍽 "
+    "&mmv MOVE_RIGHT": "󰍽 "
+    # "&msc SCRL_LEFT": "󰍽 "
+    # "&msc SCRL_DOWN": "󰍽 "
+    # "&msc SCRL_UP": "󰍽 "
+    # "&msc SCRL_RIGHT": "󰍽 "
+    "&mkp LCLK": "󰍽 L"
+    "&mkp RCLK": "󰍽 R"
+    "&mkp MCLK": "󰍽 M"
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
+    TAB: ""
+    SPACE: "󱁐"
+    BSPC: "󰁮"
+    DEL: "󰹾"
+    LEFT: ""
+    DOWN: ""
+    UP: ""
+    RIGHT: ""
+    C_PP: "󰐎"
+    C_NEXT: "󰒭"
+    C_PREV: "󰒮"
+    C_MUTE: ""
+    C_VOL_UP: ""
+    C_VOL_DN: ""
+    C_BRI_UP: "󰃠"
+    C_BRI_DN: "󰃜"
     EXCLAMATION: "!"
     EXCL: "!"
     AT_SIGN: "@"
