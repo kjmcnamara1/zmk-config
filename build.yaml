@@ -27,5 +27,5 @@ include:
     shield: corne_right nice_view_adapter nice_view
     artifact-name: corne_right
 
-  - board: glove80_lh
-    artifact-name: glove80
+  # - board: glove80_lh
+  #   artifact-name: glove80

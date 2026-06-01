@@ -1,12 +1,12 @@
-name: Build ZMK firmware
+name: Build Corne ZMK firmware
 on:
   workflow_dispatch:
   push:
     paths:
-      - "config/**"
+      - "config/corne.*"
       - ".github/workflows/build.yml"
       - "build.yaml"
 
 jobs:
-  build:
+  build-corne:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
