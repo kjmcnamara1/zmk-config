@@ -1,0 +1,828 @@
+layout: {zmk_keyboard: glove80}
+layers:
+  Qwerty:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: '=', s: '~'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '|', s: '&'}
+  - ESC
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: LSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
+  - 󰌑
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - LCTRL
+  - LALT
+  - LGUI
+  - RGUI
+  - RALT
+  - RCTRL
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: /, s: \}
+  - {t: '?', s: '!'}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: (, s: <}
+  - '['
+  - ']'
+  - {t: ), s: '>'}
+  - {t: , h: Number}
+  - {t: 󰹾, h: Function}
+  - {t: 󰪛, h: LSHFT}
+  - {t: CAPS, h: RSHFT}
+  - {t: 󰁮, h: World}
+  - {t: 󱁐, h: Symbol}
+  - 
+  - 
+  - 
+  - 
+  - '&lower'
+  Engram:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - Q
+  - B
+  - Y
+  - O
+  - U
+  - {t: '?', s: '!'}
+  - ''''
+  - L
+  - D
+  - W
+  - V
+  - {t: '|', s: '&'}
+  - ESC
+  - {t: C, h: LGUI}
+  - {t: I, h: LALT}
+  - {t: E, h: LCTRL}
+  - {t: A, h: LSHFT}
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: H, h: LSHFT}
+  - {t: T, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: N, h: LGUI}
+  - 󰌑
+  - Z
+  - G
+  - X
+  - J
+  - K
+  - {t: /, s: \}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - R
+  - M
+  - F
+  - P
+  - {t: '=', s: '~'}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&lower'
+  Gaming:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - O
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - B
+  - ESC
+  - G
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - {t: ▽, type: trans}
+  - 󰌑
+  - LSHIFT
+  - M
+  - Z
+  - X
+  - C
+  - V
+  - LCTRL
+  - LALT
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - N
+  - M
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - 󱁐
+  - 
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&lower'
+  Number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ^
+  - J
+  - K
+  - G
+  - '|'
+  - ''
+  - ''
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+Y
+  - Ctl+Z
+  - Ctl+X
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - '%'
+  - ''
+  - ESC
+  - Ctl+A
+  - Ctl+S
+  - 󰁮
+  - {t: 󱁐, h: ShNumber}
+  - Ctl+C
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - ','
+  - 󰌑
+  - ''
+  - ''
+  - ''
+  - 󰹾
+  - 
+  - Ctl+V
+  - ''
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - ''
+  - +
+  - '1'
+  - '2'
+  - '3'
+  - $
+  - ''
+  - {t: Number, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - <
+  - '>'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Number, h: toggle}
+  ShNumber:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '@'
+  - ''
+  - ''
+  - ''
+  - '&'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - ''
+  - ''
+  - ''
+  - '='
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ':'
+  - Sft+A
+  - Sft+B
+  - Sft+C
+  - _
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - Sft+D
+  - Sft+E
+  - Sft+F
+  - '#'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - X
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Function:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RW
+  - 󰒮
+  - PAUSE
+  - PLAY
+  - 󰒭
+  - FF
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F13
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - F14
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI AUTO
+  - 󰃜
+  - 󰃠
+  - ''
+  - F1
+  - F2
+  - F3
+  - F12
+  - F15
+  - {t: Function, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - 
+  - 
+  - 
+  - INS
+  - PSCRN
+  - SLCK
+  - PAUSE BREAK
+  - {t: Function, h: toggle}
+  Symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&'
+  - '@'
+  - '~'
+  - +
+  - '%'
+  - '|'
+  - {t: '&select_word_left', s: '&extend_word_left'}
+  - {t: '&select_line_down', s: '&extend_line_down'}
+  - {t: '&select_line_up', s: '&extend_line_up'}
+  - {t: '&select_word_right', s: '&extend_word_right'}
+  - '"'
+  - ''
+  - '#'
+  - {t: ^, h: LGUI}
+  - {t: '{', h: LALT}
+  - {t: '}', h: LCTRL}
+  - {t: $, h: LSHFT}
+  - '*'
+  - 
+  - {t: , h: LSHFT}
+  - {t: , h: LCTRL}
+  - {t: , h: LALT}
+  - {t: '`', h: LGUI}
+  - '!'
+  - \
+  - <
+  - '='
+  - '-'
+  - '>'
+  - /
+  - '?'
+  - .
+  - ','
+  - ''
+  - ''
+  - ''
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''''
+  - ''
+  - {t: Symbol, h: toggle}
+  - {t: (, s: <}
+  - '['
+  - ']'
+  - {t: ), s: '>'}
+  - _
+  - ':'
+  - ;
+  - ''
+  - ''
+  - {type: held}
+  - 󱁐
+  - 󰌑
+  - 
+  - 󰁮
+  - {t: Symbol, h: toggle}
+  World:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: World, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: World, h: toggle}
+  Lower:
+  - 󰃜
+  - 󰃠
+  - 󰒮
+  - 󰒭
+  - PP
+  - 
+  - 
+  - 
+  - ''
+  - PAUSE BREAK
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - (
+  - KP NUM
+  - KP EQUAL
+  - KP SLASH
+  - KP MULTIPLY
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - END
+  - )
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - SCROLLLOCK
+  - {t: ▽, type: trans}
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PG UP
+  - '%'
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - ''
+  - {t: ▽, type: trans}
+  - APP
+  - ''
+  - F11
+  - F12
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
+  - {t: ▽, type: trans}
+  - {t: Lower, h: toggle}
+  - CAPS
+  - INS
+  - F11
+  - F12
+  - {t: Number, h: toggle}
+  - {t: Function, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: World, h: toggle}
+  - {t: Symbol, h: toggle}
+  - KP 0
+  - KP 0
+  - KP DOT
+  - KP ENTER
+  - {t: Lower, h: toggle}
+  Magic:
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - {t: Qwerty, h: toggle}
+  - {t: Engram, h: toggle}
+  - {t: Gaming, h: toggle}
+  - {t: Number, h: toggle}
+  - {t: ShNumber, h: toggle}
+  - {t: Function, h: toggle}
+  - {t: Symbol, h: toggle}
+  - {t: World, h: toggle}
+  - {t: Lower, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB BRI
+  - RGB TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB BRD
+  - RGB EFF
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bt_2'
+  - '&bt_3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bt_0'
+  - '&bt_1'
+  - OUT USB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [41, 42]
+  k: ESC
+  l: [Engram, Qwerty]
+- p: [38, 37]
+  k: ENTER
+  l: [Engram, Qwerty]
+- p: [41, 42]
+  k: '&mkp MB1'
+  l: [Symbol]
+- p: [43, 44]
+  k: '&mkp MB2'
+  l: [Symbol]
+- p: [43, 44, 42, 41]
+  k: '&mkp MB3'
+  l: [Symbol]
