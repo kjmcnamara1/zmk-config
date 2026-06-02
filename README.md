@@ -1,8 +1,12 @@
 # ZMK config
 
-## Corne Wireless View
+## [Corne Wireless w/ View](https://typeractive.xyz/)
 
-![Keymap](svg/corne.svg)
+![Corne Keymap](svg/corne.svg)
+
+## [MoErgo Glove80](https://www.moergo.com/collections/glove80-keyboards)
+
+![Glove80 Keymap](svg/glove80.svg)
 
 ## Thank you
 
