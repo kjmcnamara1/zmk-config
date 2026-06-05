@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - "config/corne.*"
-      - ".github/workflows/build.yml"
+      - ".github/workflows/build-corne.yml"
+      - "config/includes/*"
       - "build.yaml"
 
 jobs:

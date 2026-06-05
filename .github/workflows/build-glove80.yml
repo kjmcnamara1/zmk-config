@@ -5,6 +5,7 @@ on:
     paths:
       - "config/glove80.*"
       - ".github/workflows/build-glove80.yml"
+      - "config/includes/*"
       - "build.yaml"
 
 jobs:

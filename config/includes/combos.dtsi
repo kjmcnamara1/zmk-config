@@ -1,0 +1,78 @@
+/ {
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo_caps_word {
+            bindings = <&caps_word>;
+            key-positions = <LM1 RM1>;
+            layers = <0>;
+        };
+
+        combo_mouse {
+            bindings = <&to 4>;
+            key-positions = <RH1 RH2>;
+            layers = <0>;
+        };
+
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <RM0 RM1>;
+            layers = <0>;
+        };
+
+        combo_lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <RM1 RM2>;
+            layers = <0>;
+        };
+
+        combo_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <RM2 RM3>;
+            layers = <0>;
+        };
+
+        combo_lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <RU1 RU2>;
+            layers = <0>;
+        };
+
+        combo_rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <RU2 RU3>;
+            layers = <0>;
+        };
+
+        combo_lbrkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <RU1 RM1>;
+            layers = <0>;
+        };
+
+        combo_rbrkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <RU3 RM3>;
+            layers = <0>;
+        };
+
+        combo_lt {
+            bindings = <&kp LT>;
+            key-positions = <RL1 RL2>;
+            layers = <0>;
+        };
+
+        combo_gt {
+            bindings = <&kp GT>;
+            key-positions = <RL2 RL3>;
+            layers = <0>;
+        };
+
+        combo_ret {
+            bindings = <&kp RET>;
+            key-positions = <LM2 LM1>;
+            layers = <0>;
+        };
+    };
+}
