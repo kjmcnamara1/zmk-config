@@ -15,45 +15,45 @@
             layers = <0>;
         };
 
-        combo_equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <RM0 RM1>;
-            layers = <0>;
-        };
+        // combo_equal {
+        //     bindings = <&kp EQUAL>;
+        //     key-positions = <RM0 RM1>;
+        //     layers = <0>;
+        // };
 
         combo_lpar {
             bindings = <&kp LPAR>;
-            key-positions = <RM1 RM2>;
+            key-positions = <RU1 RU2>;
             layers = <0>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
-            key-positions = <RM2 RM3>;
+            key-positions = <RU2 RU3>;
             layers = <0>;
         };
 
         combo_lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <RU1 RU2>;
+            key-positions = <RM2 RL2>;
             layers = <0>;
         };
 
         combo_rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <RU2 RU3>;
+            key-positions = <RM1 RL1>;
             layers = <0>;
         };
 
         combo_lbrkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <RU1 RM1>;
+            bindings = <&kp LBKT>;
+            key-positions = <RU2 RM2>;
             layers = <0>;
         };
 
         combo_rbrkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <RU3 RM3>;
+            bindings = <&kp RBKT>;
+            key-positions = <RU1 RM1>;
             layers = <0>;
         };
 
@@ -69,10 +69,17 @@
             layers = <0>;
         };
 
-        combo_ret {
-            bindings = <&kp RET>;
-            key-positions = <LM2 LM1>;
+        combo_del {
+            bindings = <&kp DEL>;
+            key-positions = <LM0 LM1>;
             layers = <0>;
         };
+
+        combo_bspc {
+            bindings = <&kp BSPC>;
+            key-positions = <LM1 LM2>;
+            layers = <0>;
+        };
+
     };
 }

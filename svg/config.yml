@@ -76,6 +76,14 @@ parse_config:
     "&mkp LCLK": "󰍽 L"
     "&mkp RCLK": "󰍽 R"
     "&mkp MCLK": "󰍽 M"
+    "&bt BT_NXT": ""
+    "&bt BT_PRV": ""
+    "&bt BT_CLR": ""
+    "&bt BT_SEL 0": "1"
+    "&bt BT_SEL 1": "2"
+    "&bt BT_SEL 2": "3"
+    "&bt BT_SEL 3": "4"
+    "&bt BT_SEL 4": "5"
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     TAB: ""
@@ -87,6 +95,10 @@ parse_config:
     DOWN: ""
     UP: ""
     RIGHT: ""
+    HOME: ""
+    PG_DN: ""
+    PG_UP: ""
+    END: ""
     C_PLAY_PAUSE: "󰐎"
     C_NEXT: "󰒭"
     C_PREV: "󰒮"
@@ -95,6 +107,25 @@ parse_config:
     C_VOL_DN: ""
     C_BRI_UP: "󰃠"
     C_BRI_DN: "󰃜"
+    PRINTSCREEN: ""
+    SCROLLLOCK: ""
+    KP_NUMLOCK: ""
+    LCTRL: ⌃
+    LALT: ⌥
+    LGUI: ⌘
+    LSHFT: ⇧
+    RCTRL: ⌃
+    LEFT_CONTROL: ⌃
+    LEFT_ALT: ⌥
+    LEFT_GUI: ⌘
+    LEFT_SHFT: ⇧
+    RALT: ⌥
+    RGUI: ⌘
+    RSHFT: ⇧
+    RIGHT_CONTROL: ⌃
+    RIGHT_ALT: ⌥
+    RIGHT_GUI: ⌘
+    RIGHT_SHFT: ⇧
     EXCLAMATION: "!"
     EXCL: "!"
     AT_SIGN: "@"
