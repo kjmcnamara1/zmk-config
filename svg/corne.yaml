@@ -215,3 +215,40 @@ layers:
   - 󰍽 L
   - 󰍽 R
   - 󰍽 M
+combos:
+- p: [16, 19]
+  k: 󰪛
+  l: [Base]
+- p: [40, 41]
+  k: {t: Mouse, h: toggle}
+  l: [Base]
+- p: [7, 8]
+  k: (
+  l: [Base]
+- p: [8, 9]
+  k: )
+  l: [Base]
+- p: [20, 32]
+  k: '{'
+  l: [Base]
+- p: [19, 31]
+  k: '}'
+  l: [Base]
+- p: [8, 20]
+  k: '['
+  l: [Base]
+- p: [7, 19]
+  k: ']'
+  l: [Base]
+- p: [31, 32]
+  k: <
+  l: [Base]
+- p: [32, 33]
+  k: '>'
+  l: [Base]
+- p: [17, 16]
+  k: 󰹾
+  l: [Base]
+- p: [16, 15]
+  k: 󰁮
+  l: [Base]
