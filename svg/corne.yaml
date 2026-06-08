@@ -142,28 +142,28 @@ layers:
   - ''
   - ''
   - BT CLR ALL
-  - 
+  -  
   - ''
   - ''
   - 
   - 
   - 
   - ''
-  - 4
-  - 5
+  -  4
+  -  5
   - ''
   - INS
   - 
   - ''
   - ''
   - ''
-  - 
-  - 
-  - OUT TOG
+  -  
+  -  
+  - 
   - ''
-  - 1
-  - 2
-  - 3
+  -  1
+  -  2
+  -  3
   - 
   - 
   - ''
@@ -172,49 +172,8 @@ layers:
   - 󰐎
   - 󰒮
   - 󰒭
-  Mouse:
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - 󰍽 ⇇
-  - 󰍽 ⇊
-  - 󰍽 ⇈
-  - 󰍽 ⇉
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - 󰍽 
-  - 󰍽 
-  - 󰍽 
-  - 󰍽 
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - 󰍽 L
-  - 󰍽 R
-  - 󰍽 M
+  Mouse: ['', '', '', '', '', '', 󰍽 ⇇, 󰍽 ⇊, 󰍽 ⇈, 󰍽 ⇉, '', '', '', '', '', '', '', '', 󰍽 , 󰍽 , 󰍽 , 󰍽 , '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', 󰍽 L, 󰍽 R, 󰍽 M]
 combos:
 - p: [16, 19]
   k: 󰪛
