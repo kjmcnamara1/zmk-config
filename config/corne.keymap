@@ -17,8 +17,8 @@
 #define SYS 3
 #define MOUSE 4
 
-#define ___ ___
-#define _x_ _x_
+#define ___ &trans
+#define _x_ &none
 #define _0_ &to BASE
 
 #include "includes/corne-keys.h"
