@@ -13,18 +13,18 @@ layers:
   - O
   - P
   - 󰁮
-  - {t: ESC, h: LCTRL}
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: ESC, h: ⌃}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⌥}
+  - {t: D, h: ⌃}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
-  - {t: '''', h: RGUI}
-  - {t: 󰌑, h: RCTRL}
+  - {t: J, h: ⇧}
+  - {t: K, h: ⌃}
+  - {t: L, h: ⌥}
+  - {t: '''', h: ⌘}
+  - {t: 󰌑, h: ⌃}
   - 󰌑
   - Z
   - X
@@ -37,7 +37,7 @@ layers:
   - {t: ., s: ':'}
   - /
   - {t: '?', s: '!'}
-  - {t: , h: LGUI}
+  - {t: , h: ⌘}
   - {t: '|', h: Sys}
   - {t: '-', h: Num}
   - {t: 󱁐, h: Nav}
@@ -79,7 +79,7 @@ layers:
   - '2'
   - '3'
   - /
-  - {t: ▽, type: trans}
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -93,10 +93,10 @@ layers:
   - +
   - '%'
   - '|'
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - 
+  - 
+  - 
+  - 
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '#'
@@ -117,10 +117,10 @@ layers:
   - '-'
   - '>'
   - '!'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - )
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
@@ -135,42 +135,83 @@ layers:
   - ''
   - 󰃠
   - 󰃜
-  - 
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
   - BT CLR ALL
-  - BT CLR
+  - 
   - ''
   - ''
   - 
   - 
   - 
   - ''
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - 4
+  - 5
   - ''
   - INS
-  - KP NUMLOCK
+  - 
   - ''
   - ''
   - ''
-  - BT PRV
-  - BT NXT
+  - 
+  - 
   - OUT TOG
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - PRINTSCREEN
-  - SCROLLLOCK
+  - 1
+  - 2
+  - 3
+  - 
+  - 
   - ''
   - {type: held}
   - ''
   - 󰐎
   - 󰒮
   - 󰒭
-  Mouse: ['', '', '', '', '', '', 󰍽 ⇇, 󰍽 ⇊, 󰍽 ⇈, 󰍽 ⇉, '', '', '', '', '', '', '', '', 󰍽 , 󰍽 , 󰍽 , 󰍽 , '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', 󰍽 L, 󰍽 R, 󰍽 M]
+  Mouse:
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - 󰍽 ⇇
+  - 󰍽 ⇊
+  - 󰍽 ⇈
+  - 󰍽 ⇉
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - 󰍽 
+  - 󰍽 
+  - 󰍽 
+  - 󰍽 
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - 󰍽 L
+  - 󰍽 R
+  - 󰍽 M
