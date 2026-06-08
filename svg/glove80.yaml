@@ -36,16 +36,16 @@ layers:
   - P
   - {t: '|', s: '&'}
   - ESC
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⌥}
+  - {t: D, h: ⌃}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: LSHFT}
-  - {t: K, h: LCTRL}
-  - {t: L, h: LALT}
-  - {t: '''', h: LGUI}
+  - {t: J, h: ⇧}
+  - {t: K, h: ⌃}
+  - {t: L, h: ⌥}
+  - {t: '''', h: ⌘}
   - 󰌑
   - '-'
   - Z
@@ -53,12 +53,12 @@ layers:
   - C
   - V
   - B
-  - LCTRL
-  - LALT
-  - LGUI
-  - RGUI
-  - RALT
-  - RCTRL
+  - ⌃
+  - ⌥
+  - ⌘
+  - ⌘
+  - ⌥
+  - ⌃
   - N
   - M
   - {t: ',', s: ;}
@@ -72,8 +72,8 @@ layers:
   - {t: ), s: '>'}
   - {t: , h: Number}
   - {t: 󰹾, h: Function}
-  - {t: 󰪛, h: LSHFT}
-  - {t: CAPS, h: RSHFT}
+  - {t: 󰪛, h: ⇧}
+  - {t: CAPS, h: ⇧}
   - {t: 󰁮, h: World}
   - {t: 󱁐, h: Symbol}
   - 
@@ -117,16 +117,16 @@ layers:
   - V
   - {t: '|', s: '&'}
   - ESC
-  - {t: C, h: LGUI}
-  - {t: I, h: LALT}
-  - {t: E, h: LCTRL}
-  - {t: A, h: LSHFT}
+  - {t: C, h: ⌘}
+  - {t: I, h: ⌥}
+  - {t: E, h: ⌃}
+  - {t: A, h: ⇧}
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: H, h: LSHFT}
-  - {t: T, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: N, h: LGUI}
+  - {t: H, h: ⇧}
+  - {t: T, h: ⌃}
+  - {t: S, h: ⌥}
+  - {t: N, h: ⌘}
   - 󰌑
   - Z
   - G
@@ -215,8 +215,8 @@ layers:
   - X
   - C
   - V
-  - LCTRL
-  - LALT
+  - ⌃
+  - ⌥
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -441,10 +441,10 @@ layers:
   - F10
   - F13
   - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - ⌘
+  - ⌥
+  - ⌃
+  - ⇧
   - ''
   - ''
   - F4
@@ -522,16 +522,16 @@ layers:
   - '"'
   - ''
   - '#'
-  - {t: ^, h: LGUI}
-  - {t: '{', h: LALT}
-  - {t: '}', h: LCTRL}
-  - {t: $, h: LSHFT}
+  - {t: ^, h: ⌘}
+  - {t: '{', h: ⌥}
+  - {t: '}', h: ⌃}
+  - {t: $, h: ⇧}
   - '*'
   - 
-  - {t: , h: LSHFT}
-  - {t: , h: LCTRL}
-  - {t: , h: LALT}
-  - {t: '`', h: LGUI}
+  - {t: , h: ⇧}
+  - {t: , h: ⌃}
+  - {t: , h: ⌥}
+  - {t: '`', h: ⌘}
   - '!'
   - \
   - <
@@ -545,10 +545,10 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - 
+  - 
+  - 
+  - 
   - ''''
   - ''
   - {t: Symbol, h: toggle}
@@ -664,31 +664,31 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
+  - 
   - (
   - KP NUM
   - KP EQUAL
   - KP SLASH
   - KP MULTIPLY
-  - PRINTSCREEN
+  - 
   - {t: ▽, type: trans}
   - ''
   - ''
   - UP ARROW
   - ''
-  - END
+  - 
   - )
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - SCROLLLOCK
+  - 
   - {t: ▽, type: trans}
   - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - PG UP
+  - 
   - '%'
   - KP 4
   - KP 5
@@ -700,7 +700,7 @@ layers:
   - ''
   - F11
   - F12
-  - PG DN
+  - 
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -730,7 +730,7 @@ layers:
   - KP ENTER
   - {t: Lower, h: toggle}
   Magic:
-  - BT CLR
+  - 
   - ''
   - ''
   - ''
