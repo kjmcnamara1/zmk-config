@@ -359,7 +359,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - 
   - RGB SPD
   - RGB SAD
   - RGB HUD
@@ -370,8 +370,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
-  - '&sys_reset'
+  - 
+  - 
   - ''
   - ''
   - ''
@@ -388,7 +388,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&sys_reset'
+  - 
   - {type: held}
   - ''
   - ''
