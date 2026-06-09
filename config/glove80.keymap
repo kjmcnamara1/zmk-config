@@ -150,7 +150,7 @@
       display-name = "Sys";
       bindings = <
         &bt BT_CLR            _x_            _x_            _x_            _x_                                                                                  _x_   _x_   _x_   _x_  &bt BT_CLR_ALL
-        &to 0            &to 1            &to 2            &to 3            &to 4            &to 5                                                         &to 6   &to 7   &to 8   _x_   _x_           _x_
+        &to 0            &to 1            &to 2            &to 3            &to 4            _x_                                                         _x_   _x_   _x_   _x_   _x_           _x_
         _x_  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                         _x_   _x_   _x_   _x_   _x_           _x_
         &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                         _x_   _x_   _x_   _x_   _x_     &bootloader
         &sys_reset            _x_            _x_            _x_            _x_            _x_   &bt_2   &bt_3         _x_   _x_   _x_   _x_   _x_   _x_   _x_   _x_   _x_      &sys_reset
