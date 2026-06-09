@@ -1,33 +1,46 @@
 / {
 
-    behaviors {
+  behaviors {
 
-        morph_comma: morph_comma {
-            compatible = "zmk,behavior-mod-morph";
-            label = "MORPH_COMMA";
-            bindings = <&kp COMMA>, <&kp SEMI>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        morph_dot: morph_dot {
-            compatible = "zmk,behavior-mod-morph";
-            label = "MORPH_DOT";
-            bindings = <&kp DOT>, <&kp COLON>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        morph_qmark: morph_qmark {
-            compatible = "zmk,behavior-mod-morph";
-            label = "MORPH_QMARK";
-            bindings = <&kp QMARK>, <&kp EXCL>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
+    morph_comma: morph_comma {
+      compatible = "zmk,behavior-mod-morph";
+      label = "MORPH_COMMA";
+      bindings = <&kp COMMA>, <&kp SEMI>;
+      #binding-cells = <0>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+
+    morph_dot: morph_dot {
+      compatible = "zmk,behavior-mod-morph";
+      label = "MORPH_DOT";
+      bindings = <&kp DOT>, <&kp COLON>;
+      #binding-cells = <0>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    morph_qmark: morph_qmark {
+      compatible = "zmk,behavior-mod-morph";
+      label = "MORPH_QMARK";
+      bindings = <&kp QMARK>, <&kp EXCL>;
+      #binding-cells = <0>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    morph_slash: morph_slash {
+      compatible = "zmk,behavior-mod-morph";
+      label = "MORPH_SLASH";
+      bindings = <&kp FSLH>, <&kp BSLH>;
+      #binding-cells = <0>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    morph_logic: morph_logic {
+      compatible = "zmk,behavior-mod-morph";
+      label = "MORPH_LOGIC";
+      bindings = <&kp PIPE>, <&kp AMPS>;
+      #binding-cells = <0>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+  };
 };
