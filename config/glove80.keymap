@@ -130,7 +130,7 @@
         &kp AMPS  &kp AT    &kp TILDE &kp PLUS  &kp PRCNT &kp PIPE                                         &kp HOME  &kp PG_DN &kp PG_UP &kp END   ___       ___
         &kp HASH  &kp CARET &kp LBRC  &kp RBRC  &kp DLLR  &kp STAR                                         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp GRAVE ___
         &kp GRAVE &kp LT    &kp EQUAL &kp MINUS &kp GT    &kp EXCL ___      ___      ___       ___ ___ ___ &kp LPAR  &kp RPAR  &kp LBKT  &kp RBKT  ___       ___
-        ___       ___       ___       ___       ___                &kp BSLH &kp FSLH &kp SPACE ___ ___ ___           ___       ___       ___       ___       ___
+        ___       ___       ___       ___       ___                &kp SPACE &kp FSLH &kp BSLH ___ ___ ___           ___       ___       ___       ___       ___
       >;
     };
 
