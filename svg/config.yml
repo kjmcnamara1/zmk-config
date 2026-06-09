@@ -85,6 +85,8 @@ parse_config:
     "&bt BT_SEL 3": " 4"
     "&bt BT_SEL 4": " 5"
     "&out OUT_TOG": ""
+    "&bootloader": ""
+    "&sys_reset": ""
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     TAB: ""
