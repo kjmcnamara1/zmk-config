@@ -1,6 +1,9 @@
 
 &lt {
-    flavor = "balanced";
-    quick-tap-ms = <175>;
+  flavor = "balanced";
+  quick-tap-ms = <175>;
 };
 
+&caps_word {
+  mods = <(MOD_LSFT | MOD_RSFT)>;
+};
