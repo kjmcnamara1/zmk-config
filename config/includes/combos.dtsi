@@ -81,5 +81,17 @@
             layers = <BASE>;
         };
 
+        combo_space {
+            bindings = <&kp SPACE>;
+            key-positions = <LU1 LM1>;
+            layers = <BASE>;
+        };
+
+        combo_ret {
+            bindings = <&kp RET>;
+            key-positions = <LU2 LM2>;
+            layers = <BASE>;
+        };
+
     };
 };
