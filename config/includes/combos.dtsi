@@ -23,13 +23,13 @@
 
         combo_lpar {
             bindings = <&kp LPAR>;
-            key-positions = <RU1 RU2>;
+            key-positions = <RU1 RM1>;
             layers = <BASE>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
-            key-positions = <RU2 RU3>;
+            key-positions = <RU2 RM2>;
             layers = <BASE>;
         };
 
@@ -47,13 +47,13 @@
 
         combo_lbrkt {
             bindings = <&kp LBKT>;
-            key-positions = <RU2 RM2>;
+            key-positions = <RM1 RL1>;
             layers = <BASE>;
         };
 
         combo_rbrkt {
             bindings = <&kp RBKT>;
-            key-positions = <RU1 RM1>;
+            key-positions = <RM2 RL2>;
             layers = <BASE>;
         };
 
