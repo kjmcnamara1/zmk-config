@@ -33,17 +33,17 @@
             layers = <BASE>;
         };
 
-        combo_lbrc {
-            bindings = <&kp LBRC>;
-            key-positions = <RM2 RL2>;
-            layers = <BASE>;
-        };
+        // combo_lbrc {
+        //     bindings = <&kp LBRC>;
+        //     key-positions = <RM2 RL2>;
+        //     layers = <BASE>;
+        // };
 
-        combo_rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <RM1 RL1>;
-            layers = <BASE>;
-        };
+        // combo_rbrc {
+        //     bindings = <&kp RBRC>;
+        //     key-positions = <RM1 RL1>;
+        //     layers = <BASE>;
+        // };
 
         combo_lbrkt {
             bindings = <&kp LBKT>;
@@ -57,17 +57,17 @@
             layers = <BASE>;
         };
 
-        combo_lt {
-            bindings = <&kp LT>;
-            key-positions = <RL1 RL2>;
-            layers = <BASE>;
-        };
+        // combo_lt {
+        //     bindings = <&kp LT>;
+        //     key-positions = <RL1 RL2>;
+        //     layers = <BASE>;
+        // };
 
-        combo_gt {
-            bindings = <&kp GT>;
-            key-positions = <RL2 RL3>;
-            layers = <BASE>;
-        };
+        // combo_gt {
+        //     bindings = <&kp GT>;
+        //     key-positions = <RL2 RL3>;
+        //     layers = <BASE>;
+        // };
 
         combo_del {
             bindings = <&kp DEL>;
