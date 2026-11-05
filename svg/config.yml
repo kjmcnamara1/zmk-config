@@ -113,6 +113,7 @@ parse_config:
     PRINTSCREEN: ""
     SCROLLLOCK: ""
     KP_NUMLOCK: ""
+    K_APP: ""
     LCTRL: ⌃
     LALT: ⌥
     LGUI: ⌘
